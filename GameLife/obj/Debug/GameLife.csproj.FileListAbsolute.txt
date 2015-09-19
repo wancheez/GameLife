@@ -1,0 +1,16 @@
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\bin\Debug\GameLife.exe.config
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\bin\Debug\GameLife.exe
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\bin\Debug\GameLife.pdb
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\MainWindow.baml
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\MainWindow.g.cs
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\App.g.cs
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife_MarkupCompile.cache
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.g.resources
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.Properties.Resources.resources
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.csproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.exe
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife.pdb
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\bin\Debug\DataGrid2DLibrary.dll
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Documents\Visual Studio 2013\Projects\GameLife\GameLife\obj\Debug\GameLife_MarkupCompile.lref

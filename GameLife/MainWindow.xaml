@@ -1,0 +1,34 @@
+﻿<Window x:Class="GameLife.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dg2d="clr-namespace:DataGrid2DLibrary;assembly=DataGrid2DLibrary"
+        xmlns:local="clr-namespace:GameLife"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <Style x:Key="IdStyle" TargetType="{x:Type DataGridCell}">
+            <Setter Property="Background" Value="{Binding RedColor}"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <dg2d:DataGrid2D Name="MainGrid" ItemsSource2D="{Binding UniverseArray}" 
+                         ColumnWidth="*" CellStyle="{StaticResource IdStyle}">
+           
+        </dg2d:DataGrid2D>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="ButtonReset" Content="Сбросить" Grid.Column="0" FontSize="20"/>
+            <Button x:Name="ButtonInputData" Content="Ввести данные" Grid.Column="1" FontSize="20"/>
+            <Button x:Name="ButtonNextStep" Content="Следующий шаг" Grid.Column="2" FontSize="20"/>
+        </Grid>
+        
+    </Grid>
+</Window>
